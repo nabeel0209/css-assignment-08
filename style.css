@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Kumbh Sans", serif;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #002062;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+    width: 60%;
+    flex-wrap: wrap;
+    gap: 17px;
+}
+
+.one .img-logo{
+    height: 100px;
+    width: 380px;
+}
+
+.one .img-logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.one h1{
+    font-size: 31px;
+    color: #ffffff;
+}
+
+.one .form-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.one .form-sec .email-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 48px;
+    background-color: #0F2D6B;
+    border-radius: 10px;
+}
+
+.one .form-sec .email-sec svg{
+    height: 24px;
+    width: 24px;
+}
+
+.one .form-sec .email-sec input{
+    width: 80%;
+    height: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    color: #9B9B9B;
+    background: none;
+    padding: 0px 15px;
+}
+
+.one .form-sec .pass-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 48px;
+    background-color: #0F2D6B;
+    border-radius: 10px;
+}
+
+.one .forgot{
+    text-align: right;
+    font-weight: 400;
+    font-size: 12px;
+    color: #b0b0b0;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.15s ease-in-out;
+}
+
+.one .forgot:hover{
+    color: white;
+    transition: all 0.15s ease-in-out
+}
+
+.one .form-sec .pass-sec svg{
+    height: 24px;
+    width: 24px;
+}
+
+.one .form-sec .pass-sec input{
+    width: 72%;
+    height: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    color: #9B9B9B;
+    background: none;
+    padding: 0px 15px;
+}
+
+.one .form-sec .common-svgs{
+    cursor: pointer;
+}
+
+.one .sign-in-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.one .sign-in-sec .sign-btn{
+   text-align: center;
+}
+
+.one .sign-in-sec .sign-btn button{
+    width: 292px;
+    height: 45px;
+    background-color: #1A4FBA; 
+    color: white; 
+    border: none;
+    border-radius: 10px; 
+    font-size: 18px; 
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+
+.one .sign-in-sec .sign-btn button:hover{
+    background-color: #266cf8;
+    transition: all 0.15s ease-in-out;
+}
+
+.one .sign-in-sec .or-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.one .sign-in-sec .or-section .line{
+    flex-grow: 1;
+    height: 1px;
+    background-color: #a1a1a1;
+}
+
+.one .sign-in-sec .or-section .text{
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #b0b0b0; 
+    text-transform: lowercase;
+}
+
+.one .sign-in-sec .google{
+    width: 292px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    padding-top: 11px;
+    background-color: #0F2D6B;
+    flex-wrap: wrap;
+    gap: 9px;
+    cursor: pointer;
+    border-radius: 10px; 
+}
+
+.one .sign-in-sec .google svg{
+    height: 24px;
+    width: 24px;
+}
+
+.one .sign-in-sec .google p{
+    font-size: 16px;
+    color: #b0b0b0;
+}
+
+.one .sign-in-sec .facebook{
+    width: 292px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    padding-top: 11px;
+    background-color: #0F2D6B;
+    flex-wrap: wrap;
+    gap: 9px;
+    cursor: pointer;
+    border-radius: 10px; 
+}
+
+.one .sign-in-sec .facebook svg{
+    height: 24px;
+    width: 24px;
+    margin-left: 16px;
+}
+
+.one .sign-in-sec .facebook p{
+    font-size: 16px;
+    color: #b0b0b0;
+}
+
+.one .sign-in-sec .apple{
+    width: 292px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    padding-top: 11px;
+    background-color: #0F2D6B;
+    flex-wrap: wrap;
+    gap: 9px;
+    cursor: pointer;
+    border-radius: 10px; 
+}
+
+.one .sign-in-sec .apple svg{
+    height: 24px;
+    width: 24px;
+}
+
+.one .sign-in-sec .apple p{
+    font-size: 16px;
+    color: #b0b0b0;
+}
+
+.one .sign-in-sec .common-class{
+    transition: all 0.15s ease-in-out;
+}
+
+.one .sign-in-sec .common-class:hover{
+    background-color: #2c54a3;
+    transition: all 0.15s ease-in-out
+}
+
+.one .sign-in-sec .common-class:hover p{
+    color: white;
+    transition: all 0.15s ease-in-out;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 1px;
+}
+
+.details p{
+    font-size: 13px;
+    color: #9B9B9B;
+    cursor: pointer;
+    margin: 0px;
+}
+
+.details a{
+    color: #4671C6;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.15s ease-in-out
+}
+
+.details a:hover{
+    color: #558af2;
+    transition: all 0.15s ease-in-out
+}
+
+.two{
+    display: flex;
+    justify-content: right;
+    height: 679px;
+    width: 100%;
+    height: 100%;
+}
+
+.two img{
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width:900px) {
+    
+    .container{
+        padding: 0px !important;
+    }
+    
+    .two{
+        display: none;
+    }
+
+    .one{
+        width: 100%;
+        margin: 0px auto;
+    }
+    
+}
+
+@media screen and (max-width:575px) {
+    
+    .container{
+        padding: 0px !important;
+    }
+
+    .content{
+        border-radius: 0px;
+    }
+
+}
+@media screen and (max-width:380px) {
+    
+    .one .img-logo{
+        width: 300px;
+        height: 80px;
+    }
+    
+}
